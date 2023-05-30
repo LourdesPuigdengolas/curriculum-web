@@ -76,6 +76,9 @@ ul.menu li{
     
    
 }
+.menu li a:hover {
+	background-color: #f0e0ee;
+	}
 ul.menu li a{
 	width: 330px;
 	height:45px;
@@ -115,6 +118,19 @@ ul.menu li a{
     margin-left: 60px;
     
 
+}
+#card{
+    width: 450px;
+    height: 170px;
+    background-color: #f9f3bc;
+    float:left;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    padding: 15px;
+    border-radius: 15px;
 }
 #yo img{
     width: 145px;
@@ -236,6 +252,29 @@ box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.2);
 margin-top: 20px;
 
 }
+#titulo ul{
+    list-style-type: none;
+}
+ul.titulo li{
+    display: inline-block;
+    position: relative;
+    }
+ul.titulo li a{
+    width: 200px;
+    height:40px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #f9f3bc;
+    border-radius: 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 37px;
+    box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    
+ }
+
 #icono{
     width: 30px;
     height: 30px;
@@ -250,15 +289,26 @@ margin-top: 20px;
     margin-left: 30px;
     color: #9D5393;
 }
+#pies{
+    width: 900px;
+    height: 80px;
+    background-color: #fff ;
+    margin-bottom: 20px;
+    margin-top: 307px;
+    margin-left: -330px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
 
+}
 #pie{
     width: 900px;
     height: 80px;
     background-color: #fff ;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 20px;
+    margin-left: -330px;
     position: relative;
-    margin-top: 896px;
     padding: 20px;
     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
 
