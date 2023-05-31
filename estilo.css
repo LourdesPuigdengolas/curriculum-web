@@ -31,7 +31,7 @@ body {
     width: 755px;
     height: 260px;    
     float: right;
-    background: linear-gradient(45deg, rgb(243, 247, 174) 20%, rgba(226, 191, 217, 0.997) 60%)
+    background: linear-gradient(45deg, rgb(243, 247, 174) 20%, rgba(248, 187, 233, 0.931) 60%)
     
         }
 h1{
@@ -85,6 +85,7 @@ ul.menu li{
     text-shadow: 1px 1px 2px #878842;
 	}
 
+
 ul.menu li a{
 	width: 330px;
 	height:45px;
@@ -101,6 +102,9 @@ ul.menu li a{
     margin-right: 1px;
     margin-left: -35px;
     
+}
+.active-page{
+    text-shadow: 1px 1px 2px #272816;   
 }
 
 
@@ -131,7 +135,7 @@ ul.menu li a{
     background-color: #f9f3bc;
     float:left;
     margin-left: 30px;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 1px;
     box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.2);
     position: absolute;
@@ -258,6 +262,30 @@ box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.2);
 margin-top: 20px;
 
 }
+#dgree img{
+    width: 610px;
+    height: 60px;
+    margin-top: -70px;
+    margin-left: 0px;
+    float: left;
+}
+#dgref img{
+    width: 359px;
+    height: 10px;
+    margin-top: -10px;
+    margin-left: 0px;
+    float: left;
+   
+}
+#dgre img{
+    width: 905px;
+    height: 625px;
+    border-radius: 50px;
+    margin-top: -15px;
+    margin-left: -10px;
+    position: absolute;
+}
+
 #titulo ul{
     list-style-type: none;
 }
