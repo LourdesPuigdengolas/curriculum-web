@@ -78,7 +78,13 @@ ul.menu li{
 }
 .menu li a:hover {
 	background-color: #f0e0ee;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #878842;
 	}
+
 ul.menu li a{
 	width: 330px;
 	height:45px;
@@ -96,11 +102,12 @@ ul.menu li a{
     margin-left: -35px;
     
 }
+
+
 #carouselExampleIndicators {
 	margin-left: 30px;
 	margin-right: 30px;
-    margin-top: 90px;
-   
+    margin-top: 90px;  
 }
 
 #contenido{
@@ -108,7 +115,6 @@ ul.menu li a{
     height: 894px;
     background-color: #9D5393;
     float:left;
-    
 }
 #contenidoB{
     width: 500px;
